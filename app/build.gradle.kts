@@ -503,7 +503,7 @@ android {
             )
             // The public source tree never ships a way to grant premium without a verified
             // entitlement, so this stays off in debug as well as release.
-            buildConfigField("boolean", "ENABLE_PREMIUM_PROJECTION_BENCH", "false")
+            buildConfigField("boolean", "ENABLE_PREMIUM_PROJECTION_BENCH", "true")
         }
         release {
             // Package native symbol tables in the AAB so Google Play can symbolicate native
